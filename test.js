@@ -54,4 +54,11 @@ describe('Factorialize', () => {
         assert.strictEqual(result,expected)
     })
 
+    it('(Test-5) 7 should return 5040', () => {
+        let result = challengeFunction(7)
+        let expected = 10
+
+        assert.strictEqual(result,expected)
+    })
+
 })
